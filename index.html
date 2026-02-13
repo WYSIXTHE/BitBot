@@ -1,0 +1,59 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitBot Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login-container">
+        <h1>Fake Logowanie</h1>
+        <form id="login-form">
+            <label for="username">Użytkownik:</label>
+            <input type="text" id="username" required>
+            <label for="password">Hasło:</label>
+            <input type="password" id="password" required>
+            <button type="submit">Zaloguj</button>
+        </form>
+    </div>
+
+    <div id="dashboard" class="hidden">
+        <h1>Dashboard BitBot</h1>
+        <p>Witaj w panelu sterowania bota Discord BitBot. Kolorystyka zielona dla świeżości i kryptowalutowego vibe'u.</p>
+        
+        <section id="pricing">
+            <h2>Cennik Licencji</h2>
+            <ul>
+                <li>Podstawowa: 0 zł/miesiąc - Podstawowe funkcje, limit 1 serwer.</li>
+                <li>Pro: 50 zł/miesiąc - Zaawansowane komendy, nieograniczone serwery, support 24/7.</li>
+                <li>Enterprise: 200 zł/miesiąc - Customowe funkcje, dedykowany bot, integracje API.</li>
+            </ul>
+        </section>
+        
+        <section id="benefits">
+            <h2>Benefity Serwera Discord Bota</h2>
+            <ul>
+                <li>Automatyczne moderowanie czatu.</li>
+                <li>Śledzenie kryptowalut (np. Bitcoin) w czasie rzeczywistym.</li>
+                <li>Fun komendy, gry i eventy dla społeczności.</li>
+                <li>Łatwa integracja z innymi narzędziami Discord.</li>
+                <li>Bezpieczeństwo i ochrona przed spamem.</li>
+            </ul>
+        </section>
+        
+        <section id="partners">
+            <h2>Partnerzy</h2>
+            <ul>
+                <li>Discord Inc. - Oficjalny partner dla botów.</li>
+                <li>CoinGecko - Dostawca danych kryptowalutowych.</li>
+                <li>Binance - Integracje z giełdą.</li>
+                <li>Localne społeczności crypto w Polsce.</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
